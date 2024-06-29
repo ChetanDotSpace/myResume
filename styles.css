@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swapdisplay=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #191919;
+  color: #ffffff;
+  
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.ephesis-regular {
+  font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navbar {
+  height: 70px;
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+}
+#navbar ul {
+  height: inherit;
+  min-width: 60vw;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#navbar a {
+  font-size: 16px;
+  font-family: "Poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
+
+  padding: 0 25px;
+  text-decoration: none;
+  color: white;
+  transition: 0.15s;
+}
+#navbar a:hover {
+  box-shadow: #191919 5px 5px 20px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: black;
+  background-color: white;
+  
+}
+#logo {
+  margin-right: auto;
+}
+main {
+  margin: auto;
+  max-width: 80vw;
+}
+
+#profile-img {
+  margin: 15vh auto 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-radius: 50%;
+}
+.heading {
+  font-family: "poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 0 0 0;
+}
+#intro {
+  font-size: 18px;
+  font-family: "poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
+  text-align: center;
+  color: #5c5c5c;
+  margin-top: 20px;
+}
+.call-to-action {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.btn {
+  margin: auto;
+  font-family: "poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+#resume-btn {
+  background-color: #191919;
+  color: white;
+}
+
+#gradient {
+  font-weight: 800;
+  outline: none;
+
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #de005e 25%,
+    #f66e48 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 40s linear infinite;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  font-family: "poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.skills-list i {
+  margin: 15px;
+  font-size: 40px;
+  outline: none;
+
+  background: linear-gradient(145deg, #ffffff 0%, #000000 50%);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill-list li{
+  font-size: large;
+}
+.spacer {
+  margin-top: 50px;
+}
+.orange-heading {
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #ff5900, #fbc4a5);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-heading {
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #3e47c1, #8cb8fa);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project-card {
+  margin: 10px;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  background: #2f2f2f;
+}
+.card-thumbnail {
+  width: inherit;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.project-card p {
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin: 0 15px;
+}
+.label {
+  margin-top: 15px;
+  color: #989898;
+  font-size: 14px;
+}
+.card-heading {
+  color: white;
+  font-size: 18px;
+
+}
+.link-position {
+    font-size: 18px;
+    position: relative;
+    top: -23px;
+    left: 250px;
+    margin: 0 15px;
+}
+
+@keyframes animate {
+  to {
+    background-position: 400%;
+  }
+}
+
+#contact form{
+  text-align: center;
+}
+form .input-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.input-box .input-field{
+  width: 400px;  
+  margin: 0px 12px;
+}
+
+.field .item{
+  width: inherit;
+  padding: 18px;
+  background: transparent;
+  border: 2px solid #0ef;
+  outline: none;
+  border-radius: 6px;
+  color: #ededed;
+  margin: 12px 0;
+}
+
+.field .item::placeholder{
+  color: rgba(255 255 255 .3);
+}
+.error-text{
+  display: none;
+  font-size: 14px;
+  color: #d93025;
+  text-align: left;
+  margin: -5px 0 10px;;
+}
+.textarea-field .error-text{
+  margin: auto;
+}
+
+form .textarea-field .item{
+  width: 32vw;
+  resize: both;
+}
+
+form  button{
+  padding: 12px 32px;
+  background: #0ef;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 2px;
+  transition: 0.5s;
+
+}
+form button:hover{
+  box-shadow: 0 0 10px #0ef;
+
+}

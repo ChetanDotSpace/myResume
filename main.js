@@ -10,7 +10,7 @@ const userMessage = document.getElementById("message");
 
 function sendEmail(){
     const messageBody = `Name: ${fullName.value} <br> Email: ${mail.value} <br> Message: ${userMessage.value}`;
-    // console.log(fullName.value, userMessage.value, mail.value);
+
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "chandupopat560@gmail.com",

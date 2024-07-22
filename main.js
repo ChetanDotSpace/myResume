@@ -1,6 +1,3 @@
-
-
-
 const form = document.querySelector("form");
 const fullName = document.getElementById("name");
 const mail = document.getElementById("email");

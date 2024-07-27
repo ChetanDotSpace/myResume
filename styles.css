@@ -6,11 +6,10 @@
 }
 
 body {
-  background-color: #191919;
+  background-color: #1e1e1e;
   color: #ffffff;
-  
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 .ephesis-regular {
@@ -40,7 +39,7 @@ body::-webkit-scrollbar{
   padding: 0 25px;
   text-decoration: none;
   color: white;
-  transition: 0.10s;
+  transition: 0.1s;
 }
 #navbar a:hover {
   box-shadow: #191919 5px 5px 20px;
@@ -49,7 +48,6 @@ body::-webkit-scrollbar{
   color: black;
   background-color: white;
   box-shadow: 2px 2px 5px rgba(255, 221, 221, 0.5);
-  
 }
 #logo {
   margin-right: auto;
@@ -122,24 +120,27 @@ main {
   display: flex;
   justify-content: center;
   font-family: "poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
 }
 .skills-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
 }
 .skills-list i {
   margin: 15px;
-  font-size: 40px;
+  font-size: 50px;
   outline: none;
-
-  background: linear-gradient(145deg, #ffffff 0%, #000000 50%);
+  background: linear-gradient(145deg, #00eaff 0%, #da6f6f 30%, #00eeff 50%, #da6f6f 70%);
   background-size: 400%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.skill-list li{
-  font-size: large;
+.skills-list li {
+  align-items: center;
+  font-size: 30px;
+  font:800;
+
 }
 .spacer {
   margin-top: 50px;
@@ -161,7 +162,7 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-.container { 
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,14 +193,13 @@ main {
 .card-heading {
   color: white;
   font-size: 18px;
-
 }
 .link-position {
-    font-size: 18px;
-    position: relative;
-    top: -23px;
-    left: 250px;
-    margin: 0 15px;
+  font-size: 18px;
+  position: relative;
+  top: -23px;
+  left: 250px;
+  margin: 0 15px;
 }
 
 @keyframes animate {
@@ -208,21 +208,21 @@ main {
   }
 }
 
-#contact form{
+#contact form {
   text-align: center;
 }
-form .input-box{
+form .input-box {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.input-box .input-field{
-  width: 400px;  
+.input-box .input-field {
+  width: 400px;
   margin: 0px 12px;
 }
 
-.field .item{
+.field .item {
   width: inherit;
   padding: 18px;
   background: transparent;
@@ -233,26 +233,26 @@ form .input-box{
   margin: 12px 0;
 }
 
-.field .item::placeholder{
-  color: rgba(255 255 255 .3);
+.field .item::placeholder {
+  color: rgba(255 255 255 0.3);
 }
-.error-text{
+.error-text {
   display: none;
   font-size: 14px;
   color: #d93025;
   text-align: left;
-  margin: -5px 0 10px;;
+  margin: -5px 0 10px;
 }
-.textarea-field .error-text{
+.textarea-field .error-text {
   margin: auto;
 }
 
-form .textarea-field .item{
+form .textarea-field .item {
   width: 32vw;
   resize: both;
 }
 
-form  button{
+form button {
   padding: 12px 32px;
   background: #0ef;
   border: none;
@@ -265,9 +265,14 @@ form  button{
   cursor: pointer;
   margin-top: 2px;
   transition: 0.5s;
-
 }
-form button:hover{
+form button:hover {
   box-shadow: 0 0 10px #0ef;
+}
 
+.project-card:hover {
+
+background: #1e1e1e;
+box-shadow:  0 0 10px #afafaf;
+  transition: 0.2s ease-out;
 }

@@ -4,6 +4,17 @@ const mail = document.getElementById("email");
 const subject = document.getElementById("subject");
 const userMessage = document.getElementById("message");
 
+let link = {
+    nike: "https://github.com/chetansahu25",
+    clock: "https://clock.chetansahu.me"
+}
+
+function linkToProject(project){
+    window.location.href= link[project];
+    
+
+}
+
 
 function sendEmail(){
     const messageBody = `Name: ${fullName.value} <br> Email: ${mail.value} <br> Message: ${userMessage.value}`;

@@ -5,7 +5,7 @@ const subject = document.getElementById("subject");
 const userMessage = document.getElementById("message");
 
 let link = {
-    nike: "https://github.com/chetansahu25",
+    nike: "https://nike-hero-section-by-chetan.vercel.app",
     clock: "https://clock.chetansahu.me"
 }
 

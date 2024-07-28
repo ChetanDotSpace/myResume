@@ -6,7 +6,8 @@ const userMessage = document.getElementById("message");
 
 let link = {
     nike: "https://nike-hero-section-by-chetan.vercel.app",
-    clock: "https://clock.chetansahu.me"
+    clock: "https://clock.chetansahu.me",
+    VirtualR: "https://virtual-r-kohl.vercel.app/"
 }
 
 function linkToProject(project){

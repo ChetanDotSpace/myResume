@@ -23,7 +23,7 @@
           <li id="logo" class="ephesis-regular">CKSahu</li>
           <li class="nav-links"><a href="#home">Home</a></li>
           <li class="nav-links"><a href="#">Experience</a></li>
-          <li class="nav-links"><a href="">Projects</a></li>
+          <li class="nav-links"><a href="#projects">Projects</a></li>
           <li class="nav-links" id="contact-btn">
             <a
               href="mailto:chetankumarsahu2525@gmail.com?subject=Hello, I am contacting you from your site"
@@ -34,7 +34,7 @@
       </div>
     </header>
     <main>
-      <section class="intro-section">
+      <section class="intro-section" id="home">
         <img src="assets/chetan.jpg" alt="" id="profile-img" />
         <h1 class="heading">
           Hey, I am <span id="gradient">Chetan Sahu</span>
@@ -65,7 +65,7 @@
           <li><i class="fa-brands fa-node"></i>nodeJS</li>
         </ul>
       </section>
-      <section class="projects spacer">
+      <section class="projects spacer" id="projects">
         <h1 class="main-heading orange-heading">My Projects</h1>
         <div class="container">
           <div class="project-card" onclick="linkToProject('nike')">
@@ -84,10 +84,10 @@
             <p class="card-heading">Digital Clock </p>
             <i class="fa-solid fa-arrow-up-right-from-square link-position"></i>
           </div>
-          <div class="project-card">
-            <img src="assets/Thumbnail.png" alt="" class="card-thumbnail" />
+          <div class="project-card" onclick="linkToProject(`VirtualR`)">
+            <img src="assets/VirtualR.png" alt="" class="card-thumbnail" />
             <p class="label">Click here to visit project</p>
-            <p class="card-heading">Lorem ipsum dolor sit.</p>
+            <p class="card-heading">VirtualR Landing Page</p>
             <i class="fa-solid fa-arrow-up-right-from-square link-position"></i>
           </div>
           <div class="project-card">

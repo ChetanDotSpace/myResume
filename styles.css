@@ -85,6 +85,7 @@ main {
 }
 .btn {
   margin: auto;
+  cursor: pointer;
   font-family: "poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 15px 30px;
   margin: 15px;
@@ -271,7 +272,7 @@ form button:hover {
 }
 
 .project-card:hover {
-
+cursor: pointer;
 background: #1e1e1e;
 box-shadow:  0 0 10px #afafaf;
   transition: 0.2s ease-out;
